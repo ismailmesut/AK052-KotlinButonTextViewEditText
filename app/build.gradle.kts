@@ -7,6 +7,10 @@ android {
     namespace = "com.ismailmesutmujde.kotlinbuttontextviewedittext"
     compileSdk = 34
 
+    buildFeatures {
+        viewBinding = true
+    }
+
     defaultConfig {
         applicationId = "com.ismailmesutmujde.kotlinbuttontextviewedittext"
         minSdk = 24
